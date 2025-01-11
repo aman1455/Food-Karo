@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.gz
+.pnpm-debug.log*
+
+# Dependency directories
+/node_modules
+
+# Build output
+dist/
+build/
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Vite
+.vite/
+.vite-cache/
+*.vite
+
+# IDE or Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Coverage directory
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Mac system files
+*.DS_Store
+
+# Ignore output from testing
+jest-test-results.json
